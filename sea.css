@@ -1,0 +1,129 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 1000px;
+       height: 100%;
+       background-color: #857E73;
+       font-family: Courier;
+       color: #FFF6B0;
+       font-size: 17;
+    }
+
+    header {
+        background-color: #FF630D;
+        padding: 10px;
+        border-top: 20px solid #000000;
+        font-size: 25;
+        color: #FFFFFF;
+        margin-left: ;
+        display: block;
+    }
+    nav {
+        float: left;
+        width: 100%;
+    }
+    nav ul {
+        padding: ;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        background-color: #FFFFFF;
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+        border: 2px solid #000000;
+        margin: 4px;
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left
+        ;
+    }
+    h2 {
+        background-color: #000000;
+        padding: 10px;
+        border-top: 20px solid #FF630D;
+        color: #FFFFFF;
+        margin-left: ;
+        display: block;
+        width: 980px;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
+
+
+Add CommentCollapse 
+
+John Lindsay4:05 PM
+added this HTML snippet: sea.html 
+<html>
+    <head>
+        <title>Virtual Escapes</title>
+        <!-- link needs 3 pieces of info -->
+        <!-- where to find the file -->
+        <!-- how to read it -->
+        <!-- What to do after it reads it -->
+        <link href="sea.css" type="text/css" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <h1>Virtual Escapes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html"><strong>Home</strong></a>
+            </li>
+            <li>
+                <a href="sea.html"><strong>Sea</strong></a>
+            </li>
+            <li>
+                <a href="land.html"><strong>Land</strong></a>
+            </li>
+            <li>
+                <a href="air.html"><strong>Air</strong></a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Escape the Falls</h2>
+            <img src="kayak3.jpg" width="1000">
+            <p>Tired of regular kayaking, tired of your life, come on an adventure with us, escape teh falls in one hour or less, or end up gogin over!</p>
+        </article>
+        <article>
+                <h2>Shark bait</h2>
+                <img src="sharkjetski2.jpg" width="1000">
+                <p>Tired of regular jet sking, tired of your life, come on an adventure with us, escape the falls in one hour or less, or end up going under!</p>
+            </article>
+    </section>
